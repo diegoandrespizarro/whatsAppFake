@@ -34,6 +34,7 @@
 .img-perfil{
     display: flex;
     align-items: center;
+    margin-left: 5px;
 }
 .nav-icon {
     display: flex;
@@ -93,13 +94,14 @@ img{
 .iconPerfil{
     width: 40px;
     height: 40px;
+    margin: 2px;
+    
     border-radius: 20px;
 }
 /* buscador chats */
 .contenedor-buscador{
     display: flex;
 }
-
 .buscar{
     width: 80%;
     display: flex;
@@ -109,7 +111,9 @@ img{
     border-radius: 5px;
     background-color: rgb(31,44,50);
 }
-
+.buscador-chats {
+    color: rgb(98,107,111); /* Cambia el color a tu preferencia */
+}
 .buscador-chats{
     background-color: rgb(31,44,50);
     border: none;
@@ -144,12 +148,11 @@ img{
     text-align:start;
 }
 .chat1:hover, .chat1:focus {
+    
     background-color: rgba(240, 240, 240, 0.1);
     cursor: pointer;
   }
-.chat1:focus {
-    outline: 2px solid #007bff;
-  }
+
 .chat-lista{
     display: flex;
     width: 100%;
@@ -185,9 +188,8 @@ img{
     border-bottom: solid 1px rgb(98,107,111); 
 }
 .time{
-    margin-left: 20px;
+    margin-right: 5px;
 }
-
 .imagenListaChat{
     display: flex;
     flex-direction: row;
