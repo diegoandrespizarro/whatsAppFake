@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.contacto{
+    width: 30%;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: rgb(17,27,34);
+    
+}
+.mensaje{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(33,46,55);
+    
+}
+.barraNav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(31,44,50);
+    display: flex;
+    justify-content: space-between;
+}
+.img-perfil{
+    display: flex;
+    align-items: center;
+}
+.nav-icon {
+    display: flex;
+    justify-content: end;
+}
+.icon-list{
+    width: 100%;
+    height: auto; 
+    display: flex;
+}
+.txtDescargah1{
+    color: rgb(222,235,243);
+    font-size: 32px;
+    font-family: "Cantarell", sans-serif;
+}
+img{
+    width: 320px;
+    height: 188px;
+}
+.cardCentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+.txtDescarga{
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(98,107,111);
+    font-family: "Cantarell", sans-serif;
+}
+.btn-wahsapp{
+    padding:10px 24px;
+    font-size: 14px;
+    font-family: "Cantarell", sans-serif;
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    background-color: rgb(0,128,105);
+    border-radius: 30px;
+}
+
+.icon-list li{
+    width: 25px;
+    cursor: pointer;
+    margin: 10px;
+    list-style: none;
+}
+.iconmasopciones{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.iconPerfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+/* buscador chats */
+.contenedor-buscador{
+    display: flex;
+}
+
+.buscar{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(31,44,50);
+}
+
+.buscador-chats{
+    background-color: rgb(31,44,50);
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+.lupa{
+    color: rgb(98,107,111);
+    margin-right: 10px;
+    padding: 5px;
+}
+.buscar input:focus-visible{
+    outline: none;
+}
+.chat-menu{
+    width: 30px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    color:  rgb(98,107,111);
+}
+
+/* chats */
+.chat1{
+    width: 92%;
+    height: 70px;
+    display: flex;
+    margin-top: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    text-align:start;
+}
+.chat1:hover, .chat1:focus {
+    background-color: rgba(240, 240, 240, 0.1);
+    cursor: pointer;
+  }
+.chat1:focus {
+    outline: 2px solid #007bff;
+  }
+.chat-lista{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+
+.cover{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.chatDetalle{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.tituloChat{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(98,107,111);
+    h4{
+        color: white;
+    }
+}
+.mensaje-p p{
+    width: 100%;
+    color: rgb(98,107,111);
+    border-bottom: solid 1px rgb(98,107,111); 
+}
+.time{
+    margin-left: 20px;
+}
+
+.imagenListaChat{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
