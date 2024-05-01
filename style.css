@@ -48,7 +48,7 @@
 .txtDescargah1{
     color: rgb(222,235,243);
     font-size: 32px;
-    font-family: "Cantarell", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img{
     width: 320px;
@@ -65,12 +65,12 @@ img{
     margin: 10px;
     font-size: 14px;
     color: rgb(98,107,111);
-    font-family: "Cantarell", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.btn-wahsapp{
+.btn-whatsapp{
     padding:10px 24px;
     font-size: 14px;
-    font-family: "Cantarell", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border: none;
     cursor: pointer;
     background: none;
@@ -78,7 +78,6 @@ img{
     background-color: rgb(0,128,105);
     border-radius: 30px;
 }
-
 .icon-list li{
     width: 25px;
     cursor: pointer;
@@ -86,8 +85,8 @@ img{
     list-style: none;
 }
 .iconmasopciones{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     
 }
@@ -95,7 +94,7 @@ img{
     width: 40px;
     height: 40px;
     margin: 2px;
-    
+    margin-left: 5px;
     border-radius: 20px;
 }
 /* buscador chats */
@@ -136,13 +135,15 @@ img{
     cursor: pointer;
     color:  rgb(98,107,111);
 }
-
 /* chats */
 .chat1{
     width: 92%;
     height: 70px;
     display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 50px;
+    margin-left: 5px;
     background-color: transparent;
     cursor: pointer;
     text-align:start;
@@ -152,14 +153,13 @@ img{
     background-color: rgba(240, 240, 240, 0.1);
     cursor: pointer;
   }
-
 .chat-lista{
     display: flex;
     width: 100%;
     margin-top: 20px;
     cursor: pointer; 
 }
-
+/* foto perfil chat */
 .cover{
     width: 50px;
     height: 50px;
@@ -178,14 +178,19 @@ img{
     display: flex;
     justify-content: space-between;
     color: rgb(98,107,111);
-    h4{
-        color: white;
-    }
+}
+.tituloChat h4{
+    font-size: 18px;
+   margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .mensaje-p p{
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(98,107,111);
-    border-bottom: solid 1px rgb(98,107,111); 
+    margin: 0;
+    border-bottom: solid 0.5px rgb(98,107,111); 
 }
 .time{
     margin-right: 5px;
@@ -193,7 +198,6 @@ img{
 .imagenListaChat{
     display: flex;
     flex-direction: row;
-    
 }
 
 
